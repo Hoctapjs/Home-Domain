@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    background-image: url('jakob-owens-SOM7hsTVG9c-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chuathea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    min-height: 50vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#chuahinh {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    min-height: 50vh;
+    padding: 10px;
+}
+
+#hinhson {
+    width: 400px;
+    border-radius: 10px;
+}
+
+#header {
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    color: #008332;
+    color: white;
+}
+
+a {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    color: white;
+    border-radius: 8px;
+    border: 3px solid white;
+}
+
+a:hover {
+    background-color: #15B392;
+    letter-spacing: 5px;
+    box-shadow: 0 0 35px #73EC8B;
+    color: #D2FF72;
+    border: 3px solid #D2FF72;
+}
